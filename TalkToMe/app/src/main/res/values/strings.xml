@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Talk To Me</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="item_sair">Sair</string>
+    <string name="item_pesquisar">Pesquisar</string>
+    <string name="item_adicionar">Adicionar</string>
+    <string name="item_configuracoes">Configurações</string>
+    <string name="botao_logar">Logar</string>
+    <string name="item_sobre">Sobre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_sobre">Aplicativo criado com os conhecimentos passado no curso
+        de desenvolvimento Android, do professor Jamilton Damasceno.
+    </string>
+</resources>

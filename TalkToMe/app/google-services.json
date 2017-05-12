@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "719708374449",
+    "firebase_url": "https://talk-to-me-27c50.firebaseio.com",
+    "project_id": "talk-to-me-27c50",
+    "storage_bucket": "talk-to-me-27c50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719708374449:android:875ad1e97cfd19df",
+        "android_client_info": {
+          "package_name": "talktome.flaviodeoliveira.com.talktome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719708374449-cqjj6u4r389ijhpjs1ht66civ806416a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "talktome.flaviodeoliveira.com.talktome",
+            "certificate_hash": "ede8b66f47bcec128139bef8a5016342d602c953"
+          }
+        },
+        {
+          "client_id": "719708374449-7i595sgacbp6c04q92otu3vs8o0p3mln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZKvGmB8TTeLSy0vlE8u09quvLPYHZ-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719708374449-7i595sgacbp6c04q92otu3vs8o0p3mln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

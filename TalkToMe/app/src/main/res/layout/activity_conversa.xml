@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="talktome.flaviodeoliveira.com.talktome.activity.ConversaActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/tb_conversa">
+    </include>
+
+    <ListView
+        android:id="@+id/lv_conversas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/tb_conversa"
+        android:layout_above="@+id/ll_mensagem"
+        ></ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/edit_mensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Envie sua mensagem"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"/>
+
+        <ImageButton
+            android:id="@+id/bt_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_send"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
