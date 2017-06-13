@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="imcdobolso.com.flaviodeoliveira.imcdobolso.MainActivity">
+
+
+    <item
+        android:id="@+id/sobre"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ajuda"
+        android:orderInCategory="200"
+        android:title="Ajuda"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/sair"
+        android:orderInCategory="300"
+        android:title="Sair"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "710477704202",
+    "firebase_url": "https://imc-do-bolso.firebaseio.com",
+    "project_id": "imc-do-bolso",
+    "storage_bucket": "imc-do-bolso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710477704202:android:0911c07de3b3586a",
+        "android_client_info": {
+          "package_name": "imcdobolso.com.flaviodeoliveira.imcdobolso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710477704202-lqa5k8keal4r7hul7t302gkcvk4016mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imcdobolso.com.flaviodeoliveira.imcdobolso",
+            "certificate_hash": "43b6a061676a5562ffe5021a816022695c8d4c03"
+          }
+        },
+        {
+          "client_id": "710477704202-fkn8htcn30fb3p5fn8u1kl71nprr426a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjeu_u3B-aBKyC859NP02Zw0yxre-3n5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710477704202-fkn8htcn30fb3p5fn8u1kl71nprr426a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IMC do Bolso</string>
+
+    <string-array name="spinner_idade">
+        <item>25 a 40 anos</item>
+        <item>41 a 49 anos</item>
+        <item>a partir dos 50 anos</item>
+    </string-array>
+
+    <string name="title_activity_resultado">ResultadoActivity</string>
+    <string name="title_activity_ajuda">AjudaActivity</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+
+</resources>

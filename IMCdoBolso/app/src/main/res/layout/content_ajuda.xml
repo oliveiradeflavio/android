@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="imcdobolso.com.flaviodeoliveira.imcdobolso.AjudaActivity"
+    tools:showIn="@layout/activity_ajuda">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="O que essa fórmula diz é o seguinte: se você começar a guardar dinheiro aos 25 anos, precisará reservar mensalmente 10% da sua renda para o futuro e, aos 65 anos, terá acumulado 9 anos de renda (25 – 15 = 10% do salário mensal destinado à reserva). Se você começar aos 45, já precisará fazer um esforço bem maior: 35% do seu dinheiro precisará ser destinado a esse propósito (45 – 10 = 35% salário mensal destinado à reserva). Ao começar com 50 anos, 50% de tudo o que você ganha deverá ser destinado à aposentadoria."
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewAjuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5013914840993100/6137909478">
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewAjudaTopo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5013914840993100/1568109076"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/adViewAjuda"
+        android:layout_alignStart="@+id/adViewAjuda">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
