@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.github.rtoshiro.util.format.SimpleMaskFormatter;
+import com.github.rtoshiro.util.format.text.MaskTextWatcher;
+
 public class MainActivity extends AppCompatActivity {
 
     //criando os EditText e o Button
@@ -40,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
         edt_Mensagem = (EditText) findViewById(R.id.edt_Mensagem);
         btn_EnviarSMS = (Button) findViewById(R.id.btn_Enviar);
 
+        //Criando a máscara para o campo de celular
+        SimpleMaskFormatter smf = new SimpleMaskFormatter("(NN)NNNNN-NNNN");
+        MaskTextWatcher mtw = new MaskTextWatcher(edt_Numero, smf);
+        edt_Numero.addTextChangedListener(mtw);
+        
+
         btn_EnviarSMS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,8 +74,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
-
     }
 }
