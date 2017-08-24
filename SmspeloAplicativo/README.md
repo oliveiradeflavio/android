@@ -1,3 +1,4 @@
 # Aplicativo desenvolvido para a videoaula do canal 
 
-Número 00
+http://www.youtube.com/flaviodicas
+http://www.blog.flaviodeoliveira.com.br
