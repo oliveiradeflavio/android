@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleMaskFormatter smf = new SimpleMaskFormatter("(NN)NNNNN-NNNN");
         MaskTextWatcher mtw = new MaskTextWatcher(edt_Numero, smf);
         edt_Numero.addTextChangedListener(mtw);
-        
+
 
         btn_EnviarSMS.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,9 +56,17 @@ public class MainActivity extends AppCompatActivity {
                 String numeroCelular = edt_Numero.getText().toString();
                 String mensagem = edt_Mensagem.getText().toString();
 
-                //criando uma variavel do tipo SMSManager
-                //Usando como padrão o getDefault() para o envio de SMS
-                SmsManager smsManager = SmsManager.getDefault();
+                if (edt_Numero.getText().toString().isEmpty()){
+                    edt_Numero.setError("Campo vazio.");
+
+                }else if (edt_Mensagem.getText().toString().isEmpty()){
+                    edt_Mensagem.setError("Campo vazio.");
+
+                }else {
+
+                    //criando uma variavel do tipo SMSManager
+                    //Usando como padrão o getDefault() para o envio de SMS
+                    SmsManager smsManager = SmsManager.getDefault();
 
                 /*
                 Setando os valores, o primeiro com o número do celular do destinatário
@@ -67,10 +75,11 @@ public class MainActivity extends AppCompatActivity {
                 utilizando o retorno da mensagem (resposta do destinatário para o
                 remetente).
                  */
-                smsManager.sendTextMessage(numeroCelular, null, mensagem, null, null);
+                    smsManager.sendTextMessage(numeroCelular, null, mensagem, null, null);
 
-                //Exibindo uma mensagem informativa de sucesso ao enviar.
-                Toast.makeText(MainActivity.this, "Mensagem Enviada", Toast.LENGTH_SHORT).show();
+                    //Exibindo uma mensagem informativa de sucesso ao enviar.
+                    Toast.makeText(MainActivity.this, "Mensagem Enviada", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
