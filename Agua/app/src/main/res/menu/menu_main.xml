@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="agua.flaviodeoliveira.com.agua.activitys.MainActivity">
+
+    <item
+        android:id="@+id/consultar_pedido"
+        android:title="Consulta Pedidos"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/administra_pedido"
+        android:title="Administrar Pedidos"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sobre"
+        android:title="Sobre"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sair"
+        android:orderInCategory="4"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/enviarPedido"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_enviarpedido"
+        android:title="Enviar Pedido"
+        app:showAsAction="always"/>
+
+</menu>

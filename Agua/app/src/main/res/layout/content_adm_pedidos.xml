@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="agua.flaviodeoliveira.com.agua.activitys.AdmPedidosActivity"
+    tools:showIn="@layout/activity_adm_pedidos"
+    android:weightSum="1">
+
+    <!--<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configuração do Status do Pedido"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp" />-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_AdminStatusPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Status do Pedido Cliente"
+            android:textAlignment="center"
+            android:textColor="@color/primary_text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pedidos enviados por clientes"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/lisview_AdmPedidosClientes"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="0.88" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Agua</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_consulta_pedido">ConsultaPedidoActivity</string>
+    <string name="title_activity_adm_pedidos">AdmPedidosActivity</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/txt_AdminNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Nome"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_AdminNome"
+        android:layout_alignStart="@+id/txt_AdminNome"
+        android:layout_below="@+id/txt_AdminNome"
+        android:text="Endereço"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_AdmEndereco"
+        android:layout_alignStart="@+id/txt_AdmEndereco"
+        android:layout_below="@+id/txt_AdmEndereco"
+        android:text="Celular"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdminGarrafa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qnt. Garrafa"
+        android:textAlignment="viewStart"
+        android:textColor="@color/primary_text"
+        android:layout_below="@+id/txt_AdmCelular"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt_AdmGarrafao10L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_AdminGarrafa"
+        android:layout_alignStart="@+id/txt_AdminGarrafa"
+        android:layout_below="@+id/txt_AdminGarrafa"
+        android:layout_marginTop="11dp"
+        android:text="Qnt Garrafão 10L"
+        android:textAlignment="viewStart"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmGarrafao20l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_AdmStatus"
+        android:layout_alignStart="@+id/txt_AdmStatus"
+        android:layout_below="@+id/txt_AdmGarrafao10L"
+        android:layout_marginTop="12dp"
+        android:text="Qnt. Garrafão 20L"
+        android:textAlignment="viewStart"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmDataHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_AdminGarrafa"
+        android:layout_alignBottom="@+id/txt_AdminGarrafa"
+        android:layout_alignLeft="@+id/txt_AdmValor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/txt_AdmValor"
+        android:text="Data/Hora"
+        android:textAlignment="textEnd"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmValor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_AdmGarrafao10L"
+        android:layout_alignBottom="@+id/txt_AdmGarrafao10L"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Valor Total"
+        android:textAlignment="textEnd"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_AdmGarrafao10L"
+        android:layout_alignStart="@+id/txt_AdmGarrafao10L"
+        android:layout_below="@+id/txt_AdmGarrafao20l"
+        android:layout_marginTop="11dp"
+        android:text="Status "
+        android:textAlignment="viewStart"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/txt_AdmTroco"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_AdmGarrafao20l"
+        android:layout_alignBottom="@+id/txt_AdmGarrafao20l"
+        android:layout_alignLeft="@+id/txt_AdmValor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/txt_AdmValor"
+        android:text="Troco:"
+        android:textAlignment="textEnd"
+        android:textColor="@color/primary_text" />
+</RelativeLayout>
