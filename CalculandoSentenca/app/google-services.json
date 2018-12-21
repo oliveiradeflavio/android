@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "518435536926",
+    "firebase_url": "https://calculando-sentenca.firebaseio.com",
+    "project_id": "calculando-sentenca",
+    "storage_bucket": "calculando-sentenca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518435536926:android:f1c472a5ddfb9f4a",
+        "android_client_info": {
+          "package_name": "calculandosentenca.flaviodeoliveira.com.calculandosentenca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518435536926-ek94mk42ru3un7ntiv3jonlias91elkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "calculandosentenca.flaviodeoliveira.com.calculandosentenca",
+            "certificate_hash": "43b6a061676a5562ffe5021a816022695c8d4c03"
+          }
+        },
+        {
+          "client_id": "518435536926-p32gum2pagdd13r2otbgl0ahe0jv7skg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHN9IG3v3Ijt3ghCNXA6EP0b-doWGuksM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518435536926-p32gum2pagdd13r2otbgl0ahe0jv7skg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="calculandosentenca.flaviodeoliveira.com.calculandosentenca.SobreActivity"
+    android:background="#ffffff">
+
+    <include android:id="@id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5013914840993100/4378961471"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+
+    </com.google.android.gms.ads.AdView>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="45dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/adViewSobre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="www.flaviodeoliveira.com.br"
+        android:autoLink="web"
+        android:id="@+id/txt_site"
+        android:textSize="18sp"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Talita Nóbrega"
+        android:id="@+id/txt_TalitaNobrega"
+        android:layout_alignBottom="@+id/imageView_Linkedin"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Colaboradora"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/imageView_Linkedin"
+        android:layout_alignRight="@+id/txt_TalitaNobrega"
+        android:layout_alignEnd="@+id/txt_TalitaNobrega" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txt_NomeVersaoApp"
+        android:layout_marginBottom="28dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_action_linkedin"
+        android:id="@+id/imageView_Linkedin"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txt_site"
+        android:layout_toLeftOf="@+id/txt_TalitaNobrega"
+        android:layout_toStartOf="@+id/txt_TalitaNobrega" />
+
+</RelativeLayout>
