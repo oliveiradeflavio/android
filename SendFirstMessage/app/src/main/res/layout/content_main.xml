@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/icones" />
+
+    <EditText
+        android:id="@+id/edtNumeroCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0987654321"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="(DD) + número celular"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/botaopersonalizado"
+        android:text="Enviar Mensagem"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5013914840993100/5080061744">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
