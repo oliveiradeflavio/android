@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center|clip_vertical|center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activitys.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fornecedores"
+        android:textColor="@color/icons" />
+
+    <Spinner
+        android:id="@+id/spFornecedor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/background_spinner" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Data  "
+        android:textColor="@color/icons" />
+
+    <TextView
+        android:id="@+id/txtOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Número do Pedido: "
+        android:textColor="@color/icons" />
+
+    <TextView
+        android:id="@+id/txtProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="Produtos Disponíveis"
+        android:textColor="@color/icons" />
+
+    <ListView
+        android:id="@+id/listviewProdutosMain"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/primary_light">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtOrdemPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Produtos Selecionados  "
+        android:textColor="@color/icons" />
+
+    <ListView
+        android:id="@+id/listviewProdutosSelecionados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_light" />
+
+</LinearLayout>

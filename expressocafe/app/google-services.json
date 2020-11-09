@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "423170736620",
+    "firebase_url": "https://expressocafe-9791b.firebaseio.com",
+    "project_id": "expressocafe-9791b",
+    "storage_bucket": "expressocafe-9791b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423170736620:android:ae40251bfaeaf98e9f80c9",
+        "android_client_info": {
+          "package_name": "com.br.flavio.expressocafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423170736620-l78nc6lng326jtrs6mkrhirgijmp1r6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.br.flavio.expressocafe",
+            "certificate_hash": "15c7e1b178ccaab366363f3391fe53eff0bc7211"
+          }
+        },
+        {
+          "client_id": "423170736620-r6rbdss029i85n44a6t4dbhfsualijs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHYrK-PDPHThN0aamOlOoumRw8lmaqig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423170736620-r6rbdss029i85n44a6t4dbhfsualijs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

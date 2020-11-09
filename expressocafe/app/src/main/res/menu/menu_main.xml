@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.expressocafe.activitys.MainActivity">
+    <item
+        android:id="@+id/enviarpedido"
+        android:orderInCategory="100"
+        android:title="Enviar Pedido"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/administracao"
+        android:orderInCategory="100"
+        android:title="Cadastrar Fornecedores"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/adminProdutos"
+        android:orderInCategory="110"
+        android:title="Cadastrar Produtos"
+        app:showAsAction="never" />
+
+</menu>
