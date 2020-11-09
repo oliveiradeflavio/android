@@ -11,5 +11,6 @@ responsável.
 Na activity que faz o processo de disparo do e-mail precisa ser ajustada as configurações
 de email/senha. As configurações de servidores precisam se adequar com o provedor.
 
+###### Video inserido na imagem abaixo
  
 [![Clique na imagem para assistir](https://github.com/oliveiradeflavio/android/blob/master/expressocafe/videos-imagens/img.png)](https://youtu.be/03Nt4g73hIk)
