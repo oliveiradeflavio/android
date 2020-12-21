@@ -1,8 +1,3 @@
-
-# Imagens do aplicativo rodando
-# base de dados Firebase (Google)
-# Java e Android Studio.
-
 Compra e venda de galões de água com mudança de status do pedido e
 envio de sms para o cliente avisando a alteração do status.
 
