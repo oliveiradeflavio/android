@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Sua Água pelo App");
+        toolbar.setTitle("Faça seu pedido");
         setSupportActionBar(toolbar);
 
         edt_Nome = (EditText) findViewById(R.id.edt_Nome);
@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //definir o titulo
-        builder.setTitle("Programador");
+        builder.setTitle("Saiba mais");
         //definir mensagem
         builder.setMessage(Html.fromHtml("<a href=\"https://www.flaviodeoliveira.com.br\">Clique aqui para " +
                 "conferir meus outros jobs</a>"));
