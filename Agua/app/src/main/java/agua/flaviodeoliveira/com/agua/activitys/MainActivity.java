@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.github.rtoshiro.util.format.SimpleMaskFormatter;
 import com.github.rtoshiro.util.format.text.MaskTextWatcher;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -120,8 +121,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void iniciaFirebase() {
 
-       firebaseDatabase = FirebaseDatabase.getInstance();
-       databaseReference = firebaseDatabase.getReference();
+      firebaseDatabase = FirebaseDatabase.getInstance();
+      databaseReference = firebaseDatabase.getReference();
 
     }
 
