@@ -31,5 +31,6 @@ dependencies {
     implementation 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
     implementation 'de.hdodenhof:circleimageview:2.0.0'
     testImplementation 'junit:junit:4.12'
+
 }
 apply plugin: 'com.google.gms.google-services'

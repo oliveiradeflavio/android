@@ -120,8 +120,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void iniciaFirebase() {
 
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference();
+       firebaseDatabase = FirebaseDatabase.getInstance();
+       databaseReference = firebaseDatabase.getReference();
 
     }
 
