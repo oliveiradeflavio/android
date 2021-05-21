@@ -34,19 +34,16 @@ Antes de tudo você precisa ter o Java, JDK e Android Studio instalado no seu co
 <!-- USAGE EXAMPLES -->
 ## Demo
 
-![Tela Inicial](https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234707.png)
+<p align="left">
+  <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234707.png" width="350" title="Tela de inicial">
 
-![Adicionar Contato](https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234800.png)
-
-![Adicionar Contato](https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234833.png)
-
-![Adicionar Contato](https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234908.png)
-
-
-[Wpp Message Envio para 1 número](https://www.linkedin.com/posts/fladoliveira_interface-usei-o-qtdesign-e-a-linguagem-python-ugcPost-6794717202772721664-qER6) 
-
-[Wpp Message Envio para Vários Números](https://www.linkedin.com/posts/fladoliveira_python-programming-activity-6795549380347871232-fbPz)
-
+  <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234800.png" width="350" alt="Adicionando contato">
+  
+ <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234833.png" width="350" alt="Adicionando contato">
+   
+  <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234908.png" width="350" alt="Adicionando contato">
+    
+</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -68,24 +65,3 @@ Link do Projeto: [https://github.com/oliveiradeflavio/android ](https://github.c
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/fladoliveira/
 [product-screenshot]: https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234707.png
-
-
-
-
-
-
-
-
-
-
-
-<p align="left">
-  <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234707.png" width="350" title="Tela de inicial">
-
-  <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234800.png" width="350" alt="Adicionando contato">
-  
- <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234833.png" width="350" alt="Adicionando contato">
-   
-  <img src="https://github.com/oliveiradeflavio/android/blob/master/Agua/screenshots/device-2018-12-13-234908.png" width="350" alt="Adicionando contato">
-    
-</p>
