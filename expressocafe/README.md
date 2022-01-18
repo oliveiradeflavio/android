@@ -45,7 +45,7 @@ Veja os [problemas abertos] (https://github.com/oliveiradeflavio/android/issues)
 <!-- CONTACT -->
 ## Contato
 
-Flávio Oliveira - [site](http://www.flaviodeoliveira.com.br) - fl.deoliveira@hotmail.com
+Flávio Oliveira - [LinkedIn](https://www.linkedin.com/in/fladoliveira/)
 
 Link do Projeto: [https://github.com/oliveiradeflavio/android ](https://github.com/oliveiradeflavio/android)
 
